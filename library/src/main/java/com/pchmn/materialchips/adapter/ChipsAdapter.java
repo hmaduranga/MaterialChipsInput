@@ -38,7 +38,7 @@ public class ChipsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     private ChipsInput mChipsInput;
     private List<ChipInterface> mChipList = new ArrayList<>();
     private String mHintLabel;
-    private ChipsInputEditText mEditText;
+    public ChipsInputEditText mEditText;
     private RecyclerView mRecycler;
 
     public ChipsAdapter(Context context, ChipsInput chipsInput, RecyclerView recycler) {
